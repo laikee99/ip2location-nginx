@@ -9,7 +9,7 @@
 #include <ngx_core.h>
 #include <ngx_http.h>
 
-#include <IP2Location.h>
+#include <libIP2Location/IP2Location.h>
 
 typedef struct {
 	IP2Location			*handler;
